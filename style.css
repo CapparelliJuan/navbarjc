@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./Estadio_Alberto_J._Armando_field_view.jpg);
+  background-position: unset;
+  background-size: cover;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+nav img {
+  border-radius: 100px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
