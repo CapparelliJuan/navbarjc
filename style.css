@@ -9,17 +9,17 @@ body {
   background-size: cover;
   font-family: sans-serif;
 }
-nav {
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
 }
-nav img {
+img {
   border-radius: 100px;
 }
 ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
