@@ -1,25 +1,46 @@
+:root {
+  --background: #fff;
+  --primary: #0000002a;
+  --secondary: #2c17ca;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  text-decoration: none;
+  list-style-type: none;
 }
 body {
   background-image: url(./Estadio_Alberto_J._Armando_field_view.jpg);
-  background-position: unset;
   background-size: cover;
-  font-family: sans-serif;
 }
 header {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 20px 70px;
+  background-color: var(--primary);
+  height: 200px;
+}
+.logo {
+  border-radius: 10px;
+  height: 100%;
+}
+.navbar,
+.navbar-list {
+  display: flex;
   align-items: center;
-  font-size: 25px;
+  justify-content: center;
 }
-img {
-  border-radius: 100px;
+.navbar {
+  gap: 100px;
 }
-ul {
-  list-style: none;
-  display: flex;
-  gap: 40px;
+.navbar-list {
+  gap: 100px;
+}
+.navbar-list a {
+  color: var(--background);
+  font-size: 30px;
+  font-family: sans-serif;
 }
