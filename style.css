@@ -1,6 +1,6 @@
 :root {
   --background: #fff;
-  --primary: #0000002a;
+  --primary: #00000061;
   --secondary: #2c17ca;
 }
 * {
@@ -16,16 +16,16 @@ body {
   background-size: cover;
 }
 header {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 20px 70px;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 30px;
   background-color: var(--primary);
   height: 200px;
+  border-radius: 10px;
 }
 .logo {
   border-radius: 10px;
-  height: 100%;
 }
 .navbar,
 .navbar-list {
@@ -41,6 +41,55 @@ header {
 }
 .navbar-list a {
   color: var(--background);
-  font-size: 30px;
+  font-size: 27px;
   font-family: sans-serif;
+}
+.main {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--background);
+  width: 20%;
+}
+#hero {
+  margin: 30px;
+  padding: 100px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+.hero-info {
+  display: flex;
+  gap: 35px;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.hero-info h1 {
+  font-size: 45px;
+  width: 80%;
+  font-weight: 700;
+  color: var(--background);
+}
+.hero-info p {
+  font-size: 20px;
+  width: 80%;
+  color: var(--background);
+}
+.hero-info a {
+  border-radius: 20px;
+  font-size: 20px;
+  color: var(--background);
+  background-color: var(--secondary);
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+}
+.hero-card img {
+  border-radius: 10px;
+  width: 400px;
 }
